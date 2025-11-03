@@ -17,8 +17,8 @@ export CUDA_VISIBLE_DEVICES=0
 
 SCENE=ficus
 EXPERIMENT=blender
-DATA_DIR=/kaggle/input/nerf-dataset/nerf_synthetic/nerf_synthetic
-CHECKPOINT_DIR=/kaggle/working/res/"$EXPERIMENT"/"$SCENE"
+DATA_DIR=/root/.cache/kagglehub/datasets/sauravmaheshkar/nerf-dataset/versions/1/nerf_synthetic/nerf_synthetic
+CHECKPOINT_DIR=/content/res/"$EXPERIMENT"/"$SCENE"
 
 python -m train \
   --gin_configs=configs/blender_256.gin \
