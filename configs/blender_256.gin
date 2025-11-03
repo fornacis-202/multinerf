@@ -7,8 +7,8 @@ Config.data_loss_type = 'mse'
 Config.adam_eps = 1e-8
 
 Model.num_levels = 2
-Model.num_prop_samples = 128
-Model.num_nerf_samples = 32
+Model.num_prop_samples = 32
+Model.num_nerf_samples = 8
 
 PropMLP.net_depth = 4
 PropMLP.net_width = 256
