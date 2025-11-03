@@ -6,6 +6,7 @@ Config.eval_render_interval = 5
 Config.data_loss_type = 'mse'
 Config.adam_eps = 1e-8
 Config.max_steps = 5000
+Config.batch_size
 
 Model.num_levels = 2
 Model.num_prop_samples = 32
