@@ -20,7 +20,6 @@ EXPERIMENT=blender
 DATA_DIR=/kaggle/input/nerf-dataset/nerf_synthetic/nerf_synthetic
 CHECKPOINT_DIR=/kaggle/working/res/"$EXPERIMENT"/"$SCENE"
 
-rm "$CHECKPOINT_DIR"/*
 python -m train \
   --gin_configs=configs/blender_256.gin \
   --gin_bindings="Config.data_dir = '${DATA_DIR}/${SCENE}'" \
